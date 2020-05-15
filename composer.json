@@ -1,5 +1,5 @@
 {
-    "name":         "paragonie/anti-csrf",
+    "name":         "onPointPL/anti-csrf",
     "description":  "Paragon Initiative's Anti-CSRF Security Library",
     "keywords": [
             "security",
@@ -9,23 +9,11 @@
         ],
     "license":      "(MIT or AGPL-3.0)",
     "type":         "library",
-    "authors": [
-            {
-                "name":     "Scott Arciszewski",
-                "email":    "scott@paragonie.com",
-                "homepage": "https://paragonie.com",
-                "role":     "Developer"
-            }
-        ],
-    "support": {
-        "issues":   "https://github.com/paragonie/anti-csrf/issues",
-        "email":    "info@paragonie.com",
-        "source":   "https://github.com/paragonie/anti-csrf"
-    },
     "autoload": {
         "psr-4": {
             "onPointPL\\AntiCSRF\\": "src/"
-        }
+        },
+		"classmap": ["lib"]
     },
     "require": {
         "php": "^7",
