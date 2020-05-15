@@ -13,7 +13,7 @@
         "psr-4": {
             "onPointPL\\AntiCSRF\\": "src/"
         },
-		"classmap": ["lib"]
+		"classmap": ["src"]
     },
     "require": {
         "php": "^7",
