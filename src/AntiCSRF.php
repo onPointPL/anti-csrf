@@ -2,6 +2,7 @@
 declare(strict_types=1);
 namespace onPointPL\AntiCSRF;
 
+
 use ParagonIE\ConstantTime\{
     Base64UrlSafe,
     Binary
