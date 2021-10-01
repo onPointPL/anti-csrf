@@ -379,7 +379,7 @@ class AntiCSRF
                     isset($this->server['REMOTE_ADDR'])
                         ? (string) $this->server['REMOTE_ADDR']
                         : '127.0.0.1',
-                    (string) Base64UrlSafe::decode((string) $stored['token']),
+                    (string) Base64UrlSafe::decode((string) ($stored['token'] ?? '')),
                     true
                 )
             );
